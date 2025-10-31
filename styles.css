@@ -1,0 +1,35 @@
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2rem;   
+}
+#notesSection{
+    margin-left: 2rem;
+}
+#newNoteSection{
+    margin-left: 2rem;
+}
+#notesSectionHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+#notesSectionHeader button{
+    margin: auto;
+    margin-left: 7rem;
+    border-radius: 1rem;
+    padding: 4px 8px;
+    font-size: 12px;
+    width: 60px;
+    height: 30px; 
+}
+.searchRow{
+    width: 100%;
+    max-width: 300px;
+}
+.topRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
